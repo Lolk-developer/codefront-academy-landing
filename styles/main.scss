@@ -1,0 +1,26 @@
+@import 'header';
+@import 'hero';
+@import 'variables';
+@import 'about';
+@import 'program';
+@import 'teachers';
+@import 'reviews';
+@import 'pricing';
+@import 'footer';
+
+html, body {
+    margin: 0;
+    padding: 0;
+    color: $text-color;
+    font-family: $font-text;
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+        padding: 20px;
+    }
+}

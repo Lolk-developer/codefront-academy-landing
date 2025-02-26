@@ -1,0 +1,28 @@
+@import 'variables';
+
+@mixin animationBtn {
+    transition: background-color 1s ease;
+    &:hover {
+        background-color: $hover-btn-color;
+    }
+}
+
+@mixin animation-card {
+    transition: box-shadow 1s ease;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+@mixin AppearanceAnim {
+    animation: appearance 1s ease 1 forwards 1.5s;
+    @keyframes appearance {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+            transform: translateY(-10%);
+        }
+    }
+}

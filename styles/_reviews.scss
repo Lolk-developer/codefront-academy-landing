@@ -1,0 +1,13 @@
+.reviews {
+    padding: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+    &__review {
+        min-width: 100%;
+        border: 2px solid black;
+        border-radius: 10px;
+        @include animation-card;
+    }
+}

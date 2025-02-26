@@ -1,0 +1,40 @@
+@import 'mixins';
+
+.teachers-part {
+    padding: 10px;
+    .teachers {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        @for $i from 1 through 3 {
+            &__teacher-#{$i} {
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 20px;
+                @include animation-card;
+                img {
+                    width: 30%;
+                    height: 30%;
+                };
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .teachers-part {
+        .teachers {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .teachers-part {
+        .teachers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
