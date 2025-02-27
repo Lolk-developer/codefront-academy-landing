@@ -14,3 +14,6 @@
 ## Как запустить
 1. Клонируйте репозиторий.
 2. Откройте файл `index.html` в браузере.
+
+## Ссылка
+https://lolk-developer.github.io/codefront-academy-landing/
