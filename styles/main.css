@@ -293,7 +293,8 @@ header .material-symbols-outlined {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .teachers-part .teachers__teacher-1 img {
-  width: 30%;
+  border-radius: 10px;
+  max-width: 50%;
   height: 30%;
 }
 .teachers-part .teachers__teacher-2 {
@@ -306,7 +307,8 @@ header .material-symbols-outlined {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .teachers-part .teachers__teacher-2 img {
-  width: 30%;
+  border-radius: 10px;
+  max-width: 50%;
   height: 30%;
 }
 .teachers-part .teachers__teacher-3 {
@@ -319,7 +321,8 @@ header .material-symbols-outlined {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .teachers-part .teachers__teacher-3 img {
-  width: 30%;
+  border-radius: 10px;
+  max-width: 50%;
   height: 30%;
 }
 
@@ -476,6 +479,7 @@ html, body {
 
 @media (min-width: 1024px) {
   .wrapper {
-    padding: 20px;
+    max-width: 75vw;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
